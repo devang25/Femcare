@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 30px;
+    overflow: hidden;
+    background-color: #047074;
+  }
+  
+  li {
+    float: right;
+    font-size: 18px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .main{
+    background-image: url(./home\ screen_top_ScrollSlide1.jpg);
+    background-size: cover;
+  }
+
+  .blockcontainer{
+    display: flex;
+    /* All below properties work with flex only */
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+  .blockcontainer > div {
+    color: #047074;
+ }
+  .blockcontainer button {
+    background-color: #047074;
+    color: white;
+}
+
+.second{
+  background-color: #ecf8f8;
+  color: black;
+  margin-top: 0;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.mid{
+  border-radius: 25px;
+  background-color: white;
+  width: 95%;
+
+}
+
+.foot{
+    background-color: #047074;
+    display: flex;
+    /* All below properties work with flex only */
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    color: white;
+    margin-bottom: 0;
+}
+
+.bottom{
+    background-color: #047074;
+    display: flex;
+    /* All below properties work with flex only */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    color: white;
+    margin-bottom: 0;
+}
+
+.bottom > div{
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+.testimonial{
+  display: flex;
+  /* All below properties work with flex only */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial > div{
+  background-color: white;
+  border-radius: 25px;
+  padding: 30px;
+  font-size: 25px;
+  line-height: 120%;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  flex: 1 1 0px;
+}
+
+
+  
+  
